@@ -1,6 +1,8 @@
 public class Cuadrado {
     //Atributos
     private int lado;
+    private int perimetro;
+    private int area;
 
     public static void main(String[] args) {
         Cuadrado cuadrado = new Cuadrado(30);
@@ -13,12 +15,28 @@ public class Cuadrado {
     }
 
     public void calcularPerimetro(){
-        int perimetro = 4*lado;
+        perimetro = 4*lado;
         System.out.println("El perimetro es: " + perimetro);
     }
 
     public void calcularArea(){
-        int area = lado*lado;
+        area = lado*lado;
         System.out.println("El area es: " + area);
+    }
+
+    public int getArea() {
+        return area;
+    }
+
+    public int getLado() {
+        return lado;
+    }
+
+    public int getPerimetro() {
+        return perimetro;
+    }
+    
+    public void setLado(int lado) {
+        this.lado = lado;
     }
 }
