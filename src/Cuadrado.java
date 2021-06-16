@@ -1,3 +1,4 @@
+package src;
 public class Cuadrado {
     //Atributos
     private int lado;
