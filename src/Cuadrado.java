@@ -4,11 +4,10 @@ public class Cuadrado {
     private int perimetro;
     private int area;
 
-    public static void main(String[] args) {
-        Cuadrado cuadrado = new Cuadrado(30);
-        cuadrado.calcularPerimetro();
-        cuadrado.calcularArea();
-    }
+    //public static void main(String[] args) {
+    //    Cuadrado cuadrado = new Cuadrado(30);
+    //    cuadrado.calcularArea();
+    //}
 
     public Cuadrado(int lado){
         this.lado = lado;
@@ -35,7 +34,7 @@ public class Cuadrado {
     public int getPerimetro() {
         return perimetro;
     }
-    
+
     public void setLado(int lado) {
         this.lado = lado;
     }
